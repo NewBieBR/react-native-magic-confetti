@@ -151,8 +151,6 @@ export default class Confetti extends React.Component<ConfettiProps, any> {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    backgroundColor: 'black',
-  },
+  container: {},
   confettiContainer: { position: 'absolute', top: 0, left: 0 },
 });
