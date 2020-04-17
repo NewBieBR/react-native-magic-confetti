@@ -53,7 +53,7 @@ export default class Confetti extends React.Component<ConfettiProps, any> {
     if (absoluteFill) style.push(StyleSheet.absoluteFill);
     const ImageComponent = imageComponent || Image;
     return (
-      <View style={style}>
+      <View pointerEvents="none" style={style}>
         {this.confettis.map(
           ({ key, x, y, angle, xVel, yVel, angleVel, color, elasticity, delay, clock, image }) => {
             return (
