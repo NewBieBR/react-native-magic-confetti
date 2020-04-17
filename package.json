@@ -1,0 +1,32 @@
+{
+  "name": "react-native-magic-confetti",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-package": "rm -f *.tgz && npm pack && cd examples && yarn cache clean && yarn remove react-native-magic-confetti && yarn add ../react-native-magic-confetti-*.tgz"
+  },
+  "keywords": [
+    "React Native",
+    "React",
+    "Typescript",
+    "react-native",
+    "react",
+    "confetti",
+    "rainy"
+  ],
+  "author": "Hung Arthur Dao",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewBieBR/react-native-magic-confetti.git"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "@types/react-native": "^0.62.2"
+  },
+  "dependencies": {
+    "react-native-reanimated": "^1.4.0"
+  }
+}
