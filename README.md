@@ -2,8 +2,9 @@
 
 Beautiful and butter smooth confetti animation for React Native.
 
-<img src="https://github.com/NewBieBR/react-native-magic-confetti/blob/master/assets/demo1.gif?raw=true" style="height:500px">
-<img style="margin-left:30px; height:500px" src="https://github.com/NewBieBR/react-native-magic-confetti/blob/master/assets/demo2.gif?raw=true">
+|               |               |
+| ------------- | ------------- |
+| <img src="https://github.com/NewBieBR/react-native-magic-confetti/blob/master/assets/demo1.gif?raw=true" width="300"> | <img width="300" src="https://github.com/NewBieBR/react-native-magic-confetti/blob/master/assets/demo2.gif?raw=true"> |
 
 ### Installation
 
